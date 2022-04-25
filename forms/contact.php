@@ -25,6 +25,14 @@
 
   // Uncomment below code if you want to use SMTP to send emails. You need to enter your correct SMTP credentials
   /*
+    
+  $contact->smtp = array(
+    'host' => 'smtp.elasticemail.com',
+    'username' => 'taimoorkhan8067@gmail.com',
+    'password' => 'CE8AD5471AB14988D857F107EC24C4F599BC',
+    'port' => '2525'
+  );
+
   $contact->smtp = array(
     'host' => 'example.com',
     'username' => 'example',
